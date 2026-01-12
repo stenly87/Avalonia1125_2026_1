@@ -7,6 +7,8 @@ public class Human : BaseModel
     public string FirstName { get; set; } = "Захар";
     public string LastName { get; set; } = "Цуренко";
     
+    public bool Illness { get; set; } = false;
+    
     [JsonIgnore]
     public int DutyCount { get; set; }
 }

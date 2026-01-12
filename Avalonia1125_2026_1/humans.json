@@ -2,6 +2,7 @@
   {
     "FirstName" : "Захар", 
     "LastName": "Нецуренко",
+    "Illness" : false,
     "Id": 1
   }
 ]
